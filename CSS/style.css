@@ -22,7 +22,7 @@ body{
         top: 0;
         width: 100%;
         background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-        padding-bottom: 60px;
+        padding-bottom: 10px;
         border: none;
         border-bottom-left-radius: 40px; 
         border-bottom-right-radius: 40px; 
@@ -37,11 +37,17 @@ body{
 
     .score{
         font-family: 'Hanken Grotesk', sans-serif;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: bold;
         color: white;
-        text-align: center;
-        margin-top: 40px;
+        display: inline-block;
+        position:relative;
+        left: 140px;
+        background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        border: none;
+        border-radius: 50px;
+        padding: 20px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     }
     .sco76{
         font-size: 50px;
@@ -99,6 +105,7 @@ body{
         padding: auto;
         padding-top: 10px;
         padding-bottom: 10px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     }
     #yellow{
         width: 320px;
@@ -111,6 +118,7 @@ body{
         padding: auto;
         padding-top: 10px;
         padding-bottom: 10px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     }
     #green{
         width: 320px;
@@ -123,6 +131,7 @@ body{
         padding: auto;
         padding-top: 10px;
         padding-bottom: 10px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     }
     #violet{
         width: 320px;
@@ -135,6 +144,7 @@ body{
         padding: auto;
         padding-top: 10px;
         padding-bottom: 10px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     }
     button{
         font-family: 'Hanken Grotesk', sans-serif;
@@ -145,6 +155,7 @@ body{
         border-radius: 30px;
         padding: 10px;
         margin-top: 10px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
         
     }
     button:hover{
@@ -161,4 +172,89 @@ body{
         text-align: center;
     }
     /*Fim parte de Baixo*/
+}
+/*-------------------------------------------------------------------------------------------------------/
+
+
+
+/* Começo parte Desktop*/
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: white;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .sumario{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .resultado-50{
+        width: 50%;
+        background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        padding: 30px;
+        border: none;
+        border-radius: 30px;
+    }
+    .seuresultado{
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: large;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .score{
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        position:relative;
+        left: 140px;
+        background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        border: none;
+        border-radius: 50px;
+        padding: 20px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .sco76{
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .otimo{
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+    .textoresultado{
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+    } 
+
+    /*---------------------------------*/
+    
+
+
+    footer{
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 18px;
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        background-image: linear-gradient(to left,rgb(153, 53, 211),red);
+        width: 100%;
+        bottom: 0%;
+    }
+    
 }

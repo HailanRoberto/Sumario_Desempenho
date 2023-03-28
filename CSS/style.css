@@ -234,7 +234,7 @@ body{
         border: none;
         border-radius: 60%;
         position: absolute;
-        top:8vh;
+        top:5vh;
         margin-left: 60px;
         
     }
@@ -402,3 +402,4 @@ body{
     }
     
 }
+/* Fim da Parte Desktop */

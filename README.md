@@ -1,26 +1,25 @@
 # Sumário de Desempenho
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/HailanRoberto/Sumario_Desempenho/blob/main/LICENCE) 
 
-## Sobre o projeto
+> Status: Pronto
 
+## Objetivo:
+<p align="center"> 
+Os usuários devem ser capazes de: 
 
++ Veja o layout ideal para a interface, dependendo do tamanho da tela do dispositivo
++ Veja os estados de foco para todos os elementos interativos na página
+</p>
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png)
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+## Imagens:
+![Site Desktop](
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+##  Construido com:
++ HTML 
++ CSS
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
-
-# Tecnologias utilizadas
-
-## Front end
-- HTML 
-- CSS 
--
-
-
-
+## O que eu aprendi:
++ Uso de Media Queries
++ Utilização de Flexbox
++ Como usar a propriedade max-width no CSS
++ Comecei a utilizar HTML semântico 

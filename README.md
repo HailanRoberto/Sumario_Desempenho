@@ -27,3 +27,6 @@
 + Utilização de Flexbox
 + Como usar a propriedade max-width no CSS
 + Comecei a utilizar HTML semântico 
+
+## Autor:
+

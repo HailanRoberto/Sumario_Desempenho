@@ -31,4 +31,5 @@ https://hailanroberto.github.io/Sumario_Desempenho/
 + Comecei a utilizar HTML semântico 
 
 ## Autor:
-
+Linkedin: <a href="https://www.linkedin.com/in/hailan-roberto-58b2a5269/">@HailanRoberto</a> <br>
+GitHub: <a href="https://github.com/HailanRoberto">@HailanRoberto</a>

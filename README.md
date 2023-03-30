@@ -1,11 +1,26 @@
+# Sumário de Desempenho
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/HailanRoberto/Sumario_Desempenho/blob/main/LICENCE) 
 
-<h1>Sumário de desempenho</h1>
+## Sobre o projeto
 
-<h2>Instruções<h2>
-<p>Nesse projeto fiz um sumário que exibe para o usuário seu resultado em determinadas competências.</p>
-<p>Foram utilizadas as tecnologias HTML5 E CSS3</p>
-<p>Nesse projeto me propus a implementar o método mobile first pela primeira vez.No começo foi difícil, mas depois de algum tempo me adaptei bem e consegui montar um layout em que fiquei satisfeito.<br>
-Também utilizei outros recursos do CSS como flexbox,margin,max-width, etc.</p>
-<p>No futuro podem ser implementadas interações com o usuário usando JavaScript.</p>
- 
-<p>Caso queira testar a responsividade do projeto abra-o em um smartphone ou use o modo desenvolvedor do seu navegador em resoluções de no mínimo 375px. </p>
+
+
+## Layout mobile
+![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png)
+## Layout web
+![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+
+![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+
+# Tecnologias utilizadas
+
+## Front end
+- HTML 
+- CSS 
+-
+
+
+
